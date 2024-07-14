@@ -745,7 +745,7 @@ svg#phoneLogo.active .svg-elem-5 {
     width: 279px;
     border-radius: 28px;
     margin-left: 140px;
-    background-color: var(--main-bg-color);
+    background-color: var(--transparent);
     pointer-events: all;
     overflow-y: hidden;
     -webkit-touch-callout: none;
@@ -1023,7 +1023,7 @@ nav .nav-right .circular-svg {
 }
 
 nav .nav-right a {
-    display: none;
+    display: inline;
 }
 
 #loader-wrapper2 {

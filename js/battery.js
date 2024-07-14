@@ -1,4 +1,3 @@
-// This might only work in chrome, edge, opera, samsung internet as of 23/07/2023 and this api bound to be removed due to security concerns. However, to get the Actual status of battery, this navigator property was my only option to make the real phone UI.
 try {
   let batteryWidth = document.getElementById("battery-width");
   let batteryIsCharging = document.querySelector(".charging");

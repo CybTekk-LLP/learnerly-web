@@ -25,14 +25,14 @@ featured.addEventListener("click", featuredFlow);
 
 function featuredFlow() {
   slideNavMenu();
-  screen.style.backgroundColor = "#F6F6F7";
-  downloadTag.style.display = "none";
+  screen.style.backgroundColor = "transparent";
+  downloadTag.style.display = "inline";
 }
 
 dashboard.addEventListener("click", dashboardFlow);
 
 function dashboardFlow() {
   slideNavMenu();
-  screen.style.backgroundColor = "transparent";
-  downloadTag.style.display = "inline";
+  screen.style.backgroundColor = "#F6F6F7";
+  downloadTag.style.display = "none";
 }
